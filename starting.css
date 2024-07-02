@@ -1,9 +1,63 @@
 h1{
-    color: rgb(239, 12, 12);
-    font-family:'Times New Roman', Times, serif;
+    color: rgb(6, 248, 111);
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
-.title{
+p{
+    text-align: center;
+}
+
+.item1{
     color: blue;
 }
+
+#blue-bordered{
+    border: 5px dashed blue;
+}
+
+.box p {
+    color: red;
+
+}
+/* 
+article > p{
+    font-weight: bolder;
+    color: chartreuse;
+    background-color: rgb(90, 13, 179);
+    padding: .5rem;
+} */
+
+div{ 
+    text-align: center;
+}
+
+body{
+    background-color: coral;
+    padding-top: 50px;
+}
+
+h1 + p{
+    font-weight: bold;
+    background-color: #e50909;
+    padding: .5em;
+    color: white;
+}
+
+h1 ~ p {
+    font-weight: bold;
+    background-color:red;
+    color: #fff;
+    padding: .5em;
+}
+
+
+#box-2 {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+
+
